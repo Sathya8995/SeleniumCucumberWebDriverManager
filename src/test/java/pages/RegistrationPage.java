@@ -10,8 +10,8 @@ public class RegistrationPage extends browserDriver {
     public static String salutation = "//select[@id=\"Salutation\"]";
 
     public static void registraionPage() throws InterruptedException {
-        Select dropdown = new Select(driver.findElement(By.xpath(salutation)));
+        Select dropdown = new Select(getDriver().findElement(By.xpath(salutation)));
         dropdown.selectByVisibleText("Ms.");
-        Assert.assertEquals("User Registration Page", driver.findElement(By.xpath(user_registration_page)).getText());
+        Assert.assertEquals("User Registration Page", getDriver().findElement(By.xpath(user_registration_page)).getText());
     }
 }

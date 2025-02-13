@@ -11,22 +11,22 @@ public class LoginPage extends browserDriver {
 
 
     public static void userName_textbox() throws InterruptedException {
-        driver.findElement(By.xpath(username_textbox)).sendKeys("sa");
+        getDriver().findElement(By.xpath(username_textbox)).sendKeys("sa");
         //Thread.sleep(1000);
     }
 
     public static void passWord_textbox() throws InterruptedException{
-        driver.findElement(By.xpath(password_textbox)).sendKeys("sa");
+        getDriver().findElement(By.xpath(password_textbox)).sendKeys("sa");
         //Thread.sleep(1000);
     }
 
     public static void clickLogin () throws InterruptedException{
-        driver.findElement(By.xpath(login_button)).click();
+        getDriver().findElement(By.xpath(login_button)).click();
         Thread.sleep(1000);
     }
 
     public static void clickRegister () throws InterruptedException{
-        driver.findElement(By.xpath(register_button)).click();
+        getDriver().findElement(By.xpath(register_button)).click();
         Thread.sleep(1000);
     }
 }

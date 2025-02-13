@@ -11,15 +11,15 @@ public class OnlineProductsPage extends browserDriver {
     public static String sneakers = "//div[@id=\"VanguardTests\"]/center/h3";
 
     public static void verifyFormalshoe() throws InterruptedException {
-        Assert.assertEquals("Formal Shoes", driver.findElement(By.xpath(formalShoe)).getText());
+        Assert.assertEquals("Formal Shoes", getDriver().findElement(By.xpath(formalShoe)).getText());
     }
 
     public static void verifySportshoe()throws InterruptedException {
-        Assert.assertEquals("Sports", driver.findElement(By.xpath(sportShoe)).getText());
+        Assert.assertEquals("Sports", getDriver().findElement(By.xpath(sportShoe)).getText());
     }
 
     public static void verifySneakers() throws InterruptedException {
-        Assert.assertEquals("Sneakers", driver.findElement(By.xpath(sneakers)).getText());
+        Assert.assertEquals("Sneakers", getDriver().findElement(By.xpath(sneakers)).getText());
     }
 
 

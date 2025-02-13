@@ -15,19 +15,20 @@ public class HomePage extends browserDriver {
     public static void openUrl() throws InterruptedException{
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        setDriver(driver);
         //Thread.sleep(2000);
-        driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html");
+        getDriver().get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html");
         Thread.sleep(1000);
     }
 
     public static void click_hamburger_menu() throws InterruptedException {
 
-        driver.findElement(By.xpath(menu_xpath)).click();
+        getDriver().findElement(By.xpath(menu_xpath)).click();
         Thread.sleep(1000);
     }
 
     public static void click_Signin_Link() throws InterruptedException {
-        driver.findElement(By.xpath(sign_in_portal_xpath)).click();
+        getDriver().findElement(By.xpath(sign_in_portal_xpath)).click();
         Thread.sleep(1000);
 
     }

@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6066","Validate user is able to view after login","","Sat Feb 01 23:04:31 CST 2025","passed","Sat Feb 01 23:04:37 CST 2025","","Logged In user view","Validate user is able to view after login",""
-"","8217","Validate user is able to view after login","","Sat Feb 01 23:04:22 CST 2025","passed","Sat Feb 01 23:04:31 CST 2025","","Logged In user view","Validate user is able to view after login",""
+"","8669","Validate user is able to view after login","","Thu Feb 13 13:48:04 CST 2025","passed","Thu Feb 13 13:48:13 CST 2025","","Logged In user view","Validate user is able to view after login",""
+"","8324","Validate user is able to view after login","","Thu Feb 13 13:48:04 CST 2025","passed","Thu Feb 13 13:48:13 CST 2025","","Logged In user view","Validate user is able to view after login",""
